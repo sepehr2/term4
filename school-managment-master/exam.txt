@@ -1,0 +1,17 @@
+database school
+
+CREATE TABLE student( 
+id INT AUTO_INCREMENT,
+name VARCHAR(100) NOT NULL,
+family VARCHAR(100) NOT NULL,
+nationalCode VARCHAR(10) UNIQUE,
+PRIMARY KEY (id, nationalCode)
+);
+
+# insert
+# update
+# delete
+# select
+
+# class database 
+# class insert
